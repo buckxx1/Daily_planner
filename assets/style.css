@@ -20,6 +20,11 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+ul.event-group {
+  min-height: 75px;
+  margin: 0;
+  list-style-type: none;
+}
 
 .description{
   white-space: pre-wrap;
@@ -57,15 +62,39 @@ textarea{
   color: white;
 }
 
-.saveBtn {
+.save-delete {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  text-align: center;
+  padding-top: 25px;
 }
-
-.saveBtn i:hover {
-  font-size: 20px;
+.save-delete i.fa-save{
+  font-size: 30px;
+}
+.save-delete i.fa-save:hover {
+  font-size: 30px;
+  color: #000000;
   transition: all .3s ease-in-out;
+}
+.save-delete i.fa-trash{
+  font-size: 18px;
+  padding-left: 8px;
+}
+.save-delete i.fa-trash:hover {
+  font-size: 18px;
+  color: #ff0000b9;
+  transition: all .5s ease-in-out;
+}
+.event-group{
+  padding: 2px 0 0 2px;
+}
+.events{
+  margin: 0;
+  height: 75px;
+  color: #000000;
+  font-size: 14px;
+  line-height: 22px;
 }
