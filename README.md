@@ -7,3 +7,7 @@ heres the screen shot
 heres the github link 
 
 https://github.com/buckxx1/Daily_planner
+
+here is the deployed website link
+
+https://buckxx1.github.io/Daily_planner/.
